@@ -1,8 +1,4 @@
-% BNP_covreg_varinds(y,prior_params,settings,restart,true_params)
-%
-% Method for producing samples of predictor-dependent mean and covariance
-% in the presence of missing data.  If no data are missing, use BNP_covreg.
-%
+
 % In this model:
 % y_i = \Theta\xi(x_i)\eta_i + \epsilon_i
 % \eta_i = \psi(x_i) + \xi_i
@@ -22,7 +18,7 @@
 % true_params - structure containing the true mean and covariance used only
 % for generating plots during the sampling
 
-function BNP_covreg_varinds(y,prior_params,settings,restart,true_params)
+function SFA_GP(y,prior_params,settings,restart,true_params)
 
 [p N] = size(y);
 
