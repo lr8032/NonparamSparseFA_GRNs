@@ -3,12 +3,14 @@ clear all; close all; clc
 
 % load C:\MATLAB\R2009a\work\Projects\Gene\Results\BNP_covreg_statsiter10000trial1.mat
 % load C:\MATLAB\R2009a\work\Projects\Gene\Results\RandTestYeast50.mat
-
 % load C:\MATLAB\R2009a\work\Projects\Gene\Results\yeast1000\BNP_covreg_statsiter4000trial1.mat
 % load C:\MATLAB\R2009a\work\Projects\Gene\Results\RandTestYeast1000.mat
 
-load C:\MATLAB\R2009a\work\Projects\Gene\Results\Saureus\BNP_covreg_statsiter6700trial1_saureus.mat
-load C:\MATLAB\R2009a\work\Projects\Gene\Results\RandTestSaureus1018.mat
+% load C:\MATLAB\R2009a\work\Projects\Gene\Results\Saureus\BNP_covreg_statsiter9600trial1_saureus.mat
+% load C:\MATLAB\R2009a\work\Projects\Gene\Results\RandTestSaureus1018.mat
+
+load /Users/rxlics/Desktop/Gene/test_from_RC/test_ecoli1500/BNP_covreg_statsiter800trial3.mat
+load RandTestEcoli1500.mat
 
 %%
 saveIter=1;

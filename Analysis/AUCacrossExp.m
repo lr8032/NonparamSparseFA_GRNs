@@ -10,16 +10,27 @@ clear all; close all; clc
 % E(5)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter3700trial1_yeast1000.mat');
 % E(6)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter3600trial1_yeast1000.mat');
 % load RandTestYeast1000.mat
-E(1)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6800trial1_saureus.mat');
-E(2)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6700trial1_saureus.mat');
-E(3)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6600trial1_saureus.mat');
-E(4)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6500trial1_saureus.mat');
-E(5)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6400trial1_saureus.mat');
-E(6)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6300trial1_saureus.mat');
-E(7)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6200trial1_saureus.mat');
-E(8)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6100trial1_saureus.mat');
-E(9)=load('C:\MATLAB\R2009a\work\Projects\Gene\Results\saureus\BNP_covreg_statsiter6000trial1_saureus.mat');
-load C:\MATLAB\R2009a\work\Projects\Gene\Results\RandTestSaureus1018.mat
+
+% E(1)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9200trial1_saureus.mat');
+% E(2)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9300trial1_saureus.mat');
+% E(3)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9400trial1_saureus.mat');
+% E(4)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9500trial1_saureus.mat');
+% E(5)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9600trial1_saureus.mat');
+% E(6)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9700trial1_saureus.mat');
+% E(7)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9800trial1_saureus.mat');
+% E(8)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter9900trial1_saureus.mat');
+% E(9)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter10000trial1_saureus.mat');
+% load /Users/rxlics/Desktop/Gene/RandTestSaureus1018.mat
+
+E(1)=load('/Users/rxlics/Desktop/Gene/test_from_RC/test_ecoli1500/BNP_covreg_statsiter700trial3.mat');
+E(2)=load('/Users/rxlics/Desktop/Gene/test_from_RC/test_ecoli1500/BNP_covreg_statsiter600trial3.mat');
+E(3)=load('/Users/rxlics/Desktop/Gene/test_from_RC/test_ecoli1500/BNP_covreg_statsiter500trial3.mat');
+% E(4)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter3800trial1_yeast1000.mat');
+% E(5)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter3700trial1_yeast1000.mat');
+% E(6)=load('/Users/rxlics/Desktop/Gene/BNPCovReg_toolbox/test/BNP_covreg_statsiter3600trial1_yeast1000.mat');
+load RandTestEcoli1500.mat
+
+
 % load C:\MATLAB\R2009a\work\Projects\Gene\Results\yeast1500\BNP_covreg_statsiter6500_yeast1500.mat
 % load C:\MATLAB\R2009a\work\Projects\Gene\Results\RandTestYeast1500.mat
 
