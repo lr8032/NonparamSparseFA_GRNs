@@ -1,7 +1,8 @@
 % SCRIPT FOR RUNNING Sparse factor analysis with Gaussian process prior
 
 %% Load data:
-load RandTestSaureus.mat
+load /Users/rui/Desktop/NonparamSparseFA_GRNs/Data/RandTestSaureus1018.mat
+y=testGExp;
 
 % y is a d x N matrix specifying the N observations of the p-dimensional data
 [d N] = size(y);
@@ -50,7 +51,7 @@ settings.Niter = 100;  % number of Gibbs iterations to run
 settings.saveEvery = 100;  % how often to write stats to disk
 settings.storeEvery = 10;  % how often to store samples in struct
 settings.saveMin = 1;
-settings.saveDir = ‘../SFA_GP/test';  % name of directory that will be created to save stats in
+settings.saveDir = '/Users/rui/Desktop/NonparamSparseFA_GRNs/SFA_GP/test';  % name of directory that will be created to save stats in
 settings.trial = 1;  % trial number 
 settings.sample_K_flag = 3; % choose to fix bandwidth parameter instead of sampling it
 settings.latent_mean = 1; % indicate whether one wants to model a non-zero latent mean \mu(x)
@@ -63,6 +64,6 @@ if restart
 end
 
 %% call the model
-SFA_GP(y,prior_params,settings,restart,true_params);
+SFA_GP(y,prior_params,settings,restart);
 
 
